@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<head>
+        <!-- Spotify CSS files -->
+        <link rel="stylesheet" type="text/css" href="sp://resources/css/list.css">
+
+        <!-- Project CSS files -->
+        <link rel="stylesheet" type="text/css" href="css/playlist-importer.css">
+	</head>
+	<body>
+		<h1 class="page-title">Playlist importer</h1>
+		<div id="js-page-1" class="page active">
+			<textarea id="js-drop-area" class="drop-area"></textarea>
+			<button id="js-import-playlist" class="sp-button sp-primary">Import playlist</button>
+		</div>
+		<div id="js-page-2" class="page">
+			<div id="js-result-view" class="results"></div>
+			<button class="js-import-new-playlist sp-button sp-primary">Import new playlist</button>	
+			<div id="js-playlist-view" class="playlist-view"></div>
+			<button class="js-import-new-playlist sp-button sp-primary">Import new playlist</button>	
+		</div>
+		<div id="js-cover-holder" class="cover-holder"></div>	
+		<script src="/js/playlist-importer.js"></script>	
+	</body>
+</html>

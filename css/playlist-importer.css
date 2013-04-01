@@ -1,0 +1,85 @@
+/* Global */
+body{
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.page{
+	display: none;
+	overflow: hidden;
+}
+
+.page-title {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+color: black;
+text-align: center;
+text-transform: uppercase;
+padding-top: 0;
+}
+
+.page, .page-title {
+margin: 0 0 0 40%;
+width: 50%;
+background-color: white;
+padding: 10px 20px;
+box-sizing: border-box;
+min-width: 500px;
+}
+
+/* break att 500px */
+@media (max-width: 900px){
+	.page, .page-title{
+	margin: 0 auto;
+	width: -webkit-calc(100% - 60px);
+	min-width: 0;
+	}
+}
+.page.active{
+	display: block;
+}
+
+.sp-primary {
+border: none;
+background-color: #222;
+color: white;
+padding: 10px;
+text-transform: uppercase;
+float: right;
+}
+
+/* Page 1 */
+
+.drop-area {
+width: 100%;
+border: none;
+background-color: #FAFAFA;
+height: 400px;
+border-radius: 2px;
+border: 1px solid #eee;
+}
+
+/* Page 2 */
+.playlist-view{
+overflow: hidden;
+height: 500px;
+margin: 10px 0;
+}
+
+/* UI background */
+.cover-holder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 0;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 0px;
+	width: 100%;
+	z-index: -1;
+}
+
+.cover-image{
+  width: 100%;
+  height: auto;
+}
+

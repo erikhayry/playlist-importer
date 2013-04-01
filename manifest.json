@@ -1,0 +1,24 @@
+{
+	"AppDescription": {
+		"en": "A playlist importer for Spotify"
+	},
+	"AppIcon": {
+		"36x18": "playlist-importer.png"
+	},
+	"AppName": {
+		"en": "Playlist Importer"
+	},
+	"BundleIdentifier": "playlist-importer",
+	"BundleType": "Application",
+	"BundleVersion": "0.1",
+	"Dependencies": {
+	  "api": "0.2.8",
+	  "util": "0.2.3",
+	  "resources": "0.2.6"
+  },
+	"RequiredInterface": 1,
+	"SupportedLanguages": [
+		"en"
+	],
+	"VendorIdentifier": "com.erikportin"
+}

@@ -3,6 +3,11 @@ playlist-importer
 
 import playlists to spotify from backup
 
+To install:
+
+Follow Spotifys instructions on how to create a developer account. Create a folder called Spotify in your root. In that create a folder called playlist-importer
+and add all these file to it. Restart spotify and in the search bar type spotify:app:playlist-importer and hit enter. You should now be able to use the importer.
+
 To save a playlist. Select all the songs from a playlist and hit copy. Paste what you got in a text editor unformatted and save as text file. 
 Should look like this:
 

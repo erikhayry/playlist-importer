@@ -7,17 +7,19 @@
         <link rel="stylesheet" type="text/css" href="css/playlist-importer.css">
 	</head>
 	<body>
-		<h1 class="page-title">Playlist importer</h1>
-		<div id="js-page-1" class="page active">
-			<textarea id="js-drop-area" class="drop-area"></textarea>
-			<button id="js-import-playlist" class="sp-button sp-primary">Import playlist</button>
-		</div>
-		<div id="js-page-2" class="page">
-			<div id="js-result-view" class="results"></div>
-			<button class="js-import-new-playlist sp-button sp-primary">Import new playlist</button>	
-			<div id="js-playlist-view" class="playlist-view"></div>
-			<button class="js-import-new-playlist sp-button sp-primary">Import new playlist</button>	
-		</div>
+		<div class="page-holder">	
+			<h1 class="page-title">playlist importer</h1>
+			<div id="js-page-1" class="page active">
+				<div id="js-message-view" class="message"></div>
+				<textarea id="js-drop-area" class="drop-area" placeholder="Paste list of Spotify URIs here"></textarea>
+				<button id="js-import-playlist" class="sp-button sp-primary">Import playlist</button>
+			</div>
+			<div id="js-page-2" class="page">
+				<div id="js-result-view" class="results"></div>
+				<div id="js-playlist-view" class="playlist-view"></div>
+				<button id="js-import-new-playlist" class="sp-button sp-primary">Import new playlist</button>	
+			</div>
+		</div>	
 		<div id="js-cover-holder" class="cover-holder"></div>	
 		<script src="/js/playlist-importer.js"></script>	
 	</body>
